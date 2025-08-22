@@ -1,1 +1,1 @@
-This is a simple program show what the time is in real time:)
+This is a simple program showing what the time is in real time:)
