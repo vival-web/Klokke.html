@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Klokkeslettest</title>
+    <script>
+        window.onload = oppdater;
+
+        function oppdater() {
+            let tid = new Date ();
+            document.getElementById("Klokkeutskrift").innerHTML = tid.getHours() + ":" + tid.getMinutes() + ":" + tid.getSeconds();
+        setTimeout (oppdater, 1000);
+        }
+    </script>
+</head>
+<body>
+    <p>Klokka er nå: <span id="Klokkeutskrift"></span></p>
+</body>
+</html>
